@@ -34,7 +34,7 @@ function initMap() {
           map.setCenter(pos);
           var marker = new google.maps.Marker({
             position: pos,
-            title:"Hello World!"
+            title:"Current Location"
             
             });
             marker.setMap(map);
