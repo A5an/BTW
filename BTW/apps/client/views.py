@@ -10,6 +10,7 @@ def loginPage2(request):
 def logoutUser2(request):
     return logoutUser(request)
 
+
 @login_required(login_url='login')
 def client(request):
     return render(request,'client.html')

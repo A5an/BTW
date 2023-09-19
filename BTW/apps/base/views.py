@@ -52,6 +52,6 @@ def registerPage(request):
 
     return render(request, 'auth_reg.html', {'form': form})
 
-# @login_required(login_url='login')
+
 def home(request):
     return render(request,'home.html')

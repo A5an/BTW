@@ -11,6 +11,7 @@ def loginPage2(request):
 def logoutUser2(request):
     return logoutUser(request)
 
+
 @login_required(login_url='login')
 def driver(request):
     return render(request,'driver.html')
